@@ -10,7 +10,7 @@ db();
 
 
 //Routing of user
-const  userroute = require('./modules/user/routes/userRoutes');
+const  userRoutes = require('./modules/user/routes/userRoutes');
 
 
 
@@ -45,7 +45,7 @@ app.use(passport.session());
 
 
 //userRoute
-app.use('/', userroute);
+app.use('/', userRoutes);
 
 
 
